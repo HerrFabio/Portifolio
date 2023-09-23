@@ -2,6 +2,8 @@
 import { Header } from "./components/Header"
 import { Banner } from "./components/Banner"
 import { AboutMe } from "./components/AboutMe"
+import { Tech } from "./components/Tech"
+
 
 function App() {
   // Javascript -> implementarei aqui tudo o que já conheço
@@ -20,6 +22,7 @@ function App() {
       <Header />
       <Banner />
       <AboutMe />
+      <Tech />
     </>
   )
 }

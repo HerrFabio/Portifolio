@@ -12,7 +12,7 @@ export const Banner = () => {
             <button type="button">Saiba Mais</button>
         
             <div>
-                {/* colocar svg aqui */}
+                <img src="src/assets/banner-img.png" alt="Banner" />
             </div>
 
         </section>
