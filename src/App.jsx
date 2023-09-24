@@ -3,6 +3,7 @@ import { Header } from "./components/Header"
 import { Banner } from "./components/Banner"
 import { AboutMe } from "./components/AboutMe"
 import { Tech } from "./components/Tech"
+import { Projects } from "./components/Projects"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Banner />
       <AboutMe />
       <Tech />
+      <Projects />
     </>
   )
 }
