@@ -1,0 +1,8 @@
+.render {
+    display: flex;
+    width: 5rem;
+    justify-content: space-between;
+    position: relative;
+    right: 55.2rem;
+    top: 2rem;
+}

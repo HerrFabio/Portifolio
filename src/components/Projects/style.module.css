@@ -1,0 +1,13 @@
+.render{
+    display: flex;
+    flex-direction: column;
+    width: 76.25%;
+    position: relative;
+    left: 9rem;
+    margin-top: 4rem;
+}
+
+.renderTitle {
+    font-size: 2.5rem;
+}
+

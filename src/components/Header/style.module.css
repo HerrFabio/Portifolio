@@ -1,0 +1,24 @@
+.render {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+    left: 8.5rem;
+}
+
+.renderButton {
+    color: #FFFFFF;
+    width: 10%;
+    height: 2.5rem;
+    background-color:#6880FF;
+    border-radius: 0.75rem;
+    position: relative;
+    right: 3rem;
+    cursor: pointer;
+}
+
+.renderButton:hover {
+    background-color: #7C91FF;
+    color: #FFF;
+}

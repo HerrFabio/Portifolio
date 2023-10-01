@@ -1,0 +1,61 @@
+.render {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 28rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 0.9rem;
+}
+
+.renderList {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    border: 0.1125rem solid gray;
+    border-radius: 1.9rem;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: flex-start;
+    width: 27rem;
+    height: 11rem;
+}
+
+.renderName {
+    font-size: 1.375rem;
+    position: relative;
+    left: 1.2rem;
+    bottom: 0.5rem;
+}
+
+.renderText {
+    position: relative;
+    bottom: 1.8rem;
+    right: 0.3rem;
+    font-size: 1rem;
+    margin: 1.5rem;
+}
+
+.renderImage {
+    position: relative;
+    left: 24.25rem;
+    bottom: 10.5rem;
+}
+
+.renderLink {
+    font-size: 1rem;
+    color: #6880FF;
+    line-height: 1.875rem;
+    position: relative;
+    left: 1.4rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.renderLink:hover{
+    color: #7C91FF;
+    text-decoration:underline;
+}
+

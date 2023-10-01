@@ -1,19 +1,27 @@
+import { username } from "../../data/user.js";
+import styles from "./style.module.css";
+
 export const Banner = () => {
     return (
-        <section>
-        {/* <Username/> */}
-            
-            <span>
-                <h1>Bem vindo ao meu portifólio</h1>
-            </span>
+        <section className={styles.render} >
 
-            <p>Uma frase interessante sobre mim.</p>
+            <div className={styles.renderInfo}>
 
-            <button type="button">Saiba Mais</button>
-        
-            <div>
-                <img src="src/assets/banner-img.png" alt="Banner" />
+                <div>
+
+                    <label className={styles.renderName} htmlFor="nome">{username}</label>
+
+                    <h1 className={styles.renderTitle}>Bem vindo ao meu portifólio</h1>
+
+                    <p className={styles.renderAbout}>Uma frase interessante sobre mim.</p>
+                </div>
+
+                <button className={styles.renderButton} type="button">Saiba Mais</button>
+
+
+                <img className={styles.renderCardImage} src="src/assets/banner-img.png" alt="Banner" />
             </div>
+
 
         </section>
     );

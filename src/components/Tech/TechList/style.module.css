@@ -1,0 +1,37 @@
+    .render {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 13rem;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 0.9rem;
+    }
+
+    .renderList {
+        display: flex;
+        list-style: none;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 16rem;
+        height: 3.5rem;
+        border: 0.1125rem solid gray;
+        border-radius: 1.9rem;
+        margin: 1rem;
+        padding: 1rem;
+        align-items: center;
+
+    }
+
+    .renderName {
+        font-size: 22px;
+        position: relative;
+        right: 3.7rem;
+    }
+
+    .renderImage {
+        position: relative;
+        right: 0.9rem;
+    }

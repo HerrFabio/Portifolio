@@ -1,13 +1,14 @@
 import { HeaderMenu } from "./HeaderMenu";
+import styles from "./style.module.css";
 
 export const Header = () => {
     return (
-        <header>
+        <header className={styles.render}>
             <img src="src/assets/portfolio.png" alt="Imagem Portifólio" />
                         
             <HeaderMenu/>
 
-            <button type="button">Contato</button>
+            <button className={styles.renderButton} type="button">Contato</button>
         </header>
     );
 }

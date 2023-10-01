@@ -4,13 +4,14 @@ import { AboutMe } from "./components/AboutMe"
 import { Tech } from "./components/Tech"
 import { Projects } from "./components/Projects"
 import { Footer } from "./components/Footer"
+import "./Styles/style.css"
 
 
 function App() {
 
   return (
-
     <>
+
       <Header />
       <main>
         <Banner />
@@ -19,6 +20,7 @@ function App() {
         <Projects />
       </main>
       <Footer />
+    
     </>
   )
 }

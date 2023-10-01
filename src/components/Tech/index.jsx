@@ -1,9 +1,10 @@
 import { TechList } from "./TechList";
+import styles from "./style.module.css";
 
 export const Tech = () => {
     return (
-        <section>
-            <h2>Tecnologias</h2>
+        <section className={styles.render}>
+            <h2 className={styles.renderTitle}>Tecnologias</h2>
             <TechList />
         </section>
     );
