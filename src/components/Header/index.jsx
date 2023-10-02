@@ -1,10 +1,11 @@
 import { HeaderMenu } from "./HeaderMenu";
 import styles from "./style.module.css";
+import portfolio from "../../assets/portfolio.png"
 
 export const Header = () => {
     return (
         <header className={styles.render}>
-            <img src="src/assets/portfolio.png" alt="Imagem Portifólio" />
+            <img src={portfolio} alt="Imagem Portifólio" />
                         
             <HeaderMenu/>
 

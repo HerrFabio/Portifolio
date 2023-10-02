@@ -1,6 +1,6 @@
 import { username } from "../../data/user.js";
 import styles from "./style.module.css";
-
+import banner from "../../assets/banner-img.png"
 export const Banner = () => {
     return (
         <section className={styles.render} >
@@ -19,7 +19,7 @@ export const Banner = () => {
                 <button className={styles.renderButton} type="button">Saiba Mais</button>
 
 
-                <img className={styles.renderCardImage} src="src/assets/banner-img.png" alt="Banner" />
+                <img className={styles.renderCardImage} src={banner} alt="Banner" />
             </div>
 
 

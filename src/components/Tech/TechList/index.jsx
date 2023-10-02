@@ -1,6 +1,7 @@
 import { technologies } from "../../../data/technologies";
 import styles from "./style.module.css";
 
+
 export const TechList = () => {
     return (
         <ul className={styles.render}>
