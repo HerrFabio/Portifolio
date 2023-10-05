@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
-import whatsapp from "../../../assets/whatsapp-icon.png"
-import linkedin from "../../../assets/linkedin-icon.png"
-import github from "../../../assets/github-icon.png"
+import whatsapp from "../../../assets/whatsapp-icon.png";
+import linkedin from "../../../assets/linkedin-icon.png";
+import github from "../../../assets/github-icon.png";
 
 export const FooterIcons = () => {
     return(

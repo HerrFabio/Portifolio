@@ -1,6 +1,6 @@
 import { username } from "../../data/user.js";
 import styles from "./style.module.css";
-import banner from "../../assets/banner-img.png"
+import banner from "../../assets/banner-img.png";
 export const Banner = () => {
     return (
         <section className={styles.render} >

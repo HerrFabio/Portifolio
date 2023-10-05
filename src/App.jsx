@@ -1,9 +1,9 @@
-import { DefaultTemplate } from "./components/DefautTemplate"
-import { Banner } from "./components/Banner"
-import { AboutMe } from "./components/AboutMe"
-import { Tech } from "./components/Tech"
-import { Projects } from "./components/Projects"
-import "./Styles/style.css"
+import { DefaultTemplate } from "./components/DefautTemplate";
+import { Banner } from "./components/Banner";
+import { AboutMe } from "./components/AboutMe";
+import { Tech } from "./components/Tech";
+import { Projects } from "./components/Projects";
+import "./Styles/style.css";
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       
     
     </>
-  )
+  );
 }
 
 export default App

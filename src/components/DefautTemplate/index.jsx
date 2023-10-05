@@ -7,7 +7,7 @@ export const DefaultTemplate = ({children}) => {
         <Header/>
         <main>
 
-            {children}
+            {children};
 
         </main>
         <Footer/>

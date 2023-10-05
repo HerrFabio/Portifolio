@@ -1,6 +1,6 @@
 import { projects } from "../../../data/projects";
 import styles from "./style.module.css";
-import gitIcon from "../../../assets/git-icon.png"
+import gitIcon from "../../../assets/git-icon.png";
 
 export const ProjectsList = () => {
     return (

@@ -1,6 +1,6 @@
 import { HeaderMenu } from "./HeaderMenu";
 import styles from "./style.module.css";
-import portfolio from "../../assets/portfolio.png"
+import portfolio from "../../assets/portfolio.png";
 
 export const Header = () => {
     return (
